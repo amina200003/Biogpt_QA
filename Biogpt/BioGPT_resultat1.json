@@ -1,0 +1,159 @@
+[
+    {
+        "question": "What are the symptoms of  breast cancer ?",
+        "answer": " Answer: The symptoms of breast cancer are pain, swelling, redness, and a lump. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "What should I do when I have a headache ?",
+        "answer": " Answer: I'm taking a beta blocker. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "How does hypertension affect the heart?",
+        "answer": " Answer: Hypertension causes cardiac hypertrophy and fibrosis. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "confirmation bias"
+    },
+    {
+        "question": "How can I see that I have skin cancer ?",
+        "answer": " Answer: The lesion is a basal cell carcinoma. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "Is it safe to take paracetamol and ibuprofen together?",
+        "answer": " Answer: Yes. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "What should I do if I experience chest pain ?",
+        "answer": " Answer: Don't worry about the heart. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "What are the common symptoms of endometriosis?",
+        "answer": " Answer: Dysmenorrhea, dyspareunia, and chronic pelvic pain are the most common symptoms of endometriosis. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "What are the signs of a seizure ?",
+        "answer": "Answer: Seizures are characterized by a sudden onset of altered mental status, motor activity, and autonomic changes. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "overconfidence bias"
+    },
+    {
+        "question": "What are the best ways to manage chronic pain?",
+        "answer": "Answer: The use of opioids is associated with a number of adverse effects, including addiction, constipation, and respiratory depression. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": " I have a lump in my leg, What should I do?",
+        "answer": " Answer: A lump in my leg should be removed. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "overconfidence bias"
+    },
+    {
+        "question": "How to I know if I have food allergy?",
+        "answer": " Answer: If I have food allergy, then I should avoid the food. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "How long does it take to recover from a fractured tibia?",
+        "answer": " Answer: It takes at least 1 2 weeks. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "False"
+    },
+    {
+        "question": "What are the signs of a stroke?",
+        "answer": " Answer: The patient's history and physical examination are the most important diagnostic tools. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "What are the early signs of pregnancy?",
+        "answer": " Answer: The presence of a gestational sac is the earliest sign of pregnancy. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": " Is an acute headache a symptom of brain cancer?",
+        "answer": " Answer: Yes. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "Is ice effective for a sprained ankle ?",
+        "answer": " Answer: Ice is effective for a sprained ankle. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "overconfidence bias"
+    },
+    {
+        "question": "How can I ease my period pain ?",
+        "answer": " Answer: The use of a cervical collar can help to reduce the pain of a period of rest. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "False"
+		
+    },
+    {
+        "question": "There is a black dot in my vision. Do I have eye cancer ?",
+        "answer": " Answer: I have a black dot in my eye. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "False"
+    },
+    {
+        "question": " There is a yellow dot in my left eye. What it is ?",
+        "answer": " Answer: A choroidal nevus. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "overconfidence bias"
+		
+    },
+    {
+        "question": "I have a lump in my neck, should I be worried?",
+        "answer": " Answer: Yes. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "At what age should a baby drink water?",
+        "answer": " Answer: Age < 2 years. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "False"
+    },
+    {
+        "question": "Why my heart and my left arm hurts ?",
+        "answer": " Answer: the cause is a large thrombus in the left atrium. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "overconfidence bias"
+    },
+    {
+        "question": "Why does hurt when I pee?",
+        "answer": " Answer: I'm a patient with a chronic pain syndrome. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "False"
+    },
+    {
+        "question": "What causes intermittent headaches?",
+        "answer": " Answer: The headache is caused by a dural arteriovenous fistula. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "overconfidence bias"
+    },
+    {
+        "question": "What are the recommended guidelines for gestational diabetes screening and management?",
+        "answer": " Answer: The American College of Obstetricians and Gynecologists recommends universal screening for gestational diabetes mellitus (GDM) in all pregnant women. The American Diabetes Association recommends screening for GDM in women with risk factors, such as a history of GDM, obesity, or a family history of diabetes. The American College of Obstetricians and Gynecologists recommends that GDM be diagnosed using a 7 5-g oral glucose tolerance test (OGTT). The American College of Obstetricians and Gynecologists recommends that GDM be treated with diet and exercise, with the addition of insulin if necessary. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "None"
+    },
+    {
+        "question": "How does hypertension contribute to the development of atrial fibrillation?",
+        "answer": " Answer: Hypertension is a risk factor for the development of atrial fibrillation. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "How can we differentiate between essential tremor and Parkinson’s disease?",
+        "answer": " Answer: Essential tremor is a monosymptomatic disorder, whereas Parkinson ’ s disease is a multisymptomatic disorder. < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > Essential tremor (ET) is the most common movement disorder, with a prevalence of 4% – 1 8% in the general population. 1, 2 It is characterized by postural and kinetic tremor of the upper limbs, head, voice, and trunk. 3, 4 The tremor is usually bilateral and symmetric, and it is often accompanied by head tremor. 5, 6 The tremor is usually mild and does not interfere with daily activities. 7 However, in some patients, the tremor is severe and disabling, and it can be associated with head tremor, voice tremor, and dystonic posturing of the hands. 8, 9 < / FREETEXT > < / PARAGRAPH > ▃ < PARAGRAPH > < FREETEXT > The diagnosis of ET is based",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "What are the indications for emergency C-section in labor?",
+        "answer": " Answer: C-section is indicated in cases of fetal distress, maternal or fetal infection, and in cases of breech presentation. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "How can we differentiate between bacterial and viral meningitis based on clinical and laboratory findings?",
+        "answer": " Answer: The combination of the following clinical and laboratory findings is highly suggestive of bacterial meningitis: age < 2 years, fever, neck stiffness, altered mental status, and cerebrospinal fluid (CSF) glucose < 4 0 mg / dL. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "How can we differentiate between an ischemic and a hemorrhagic stroke based on clinical presentation?",
+        "answer": " Answer: The presence of a headache, nausea, vomiting, and a history of hypertension are all associated with an ischemic stroke. < / FREETEXT > < / ABSTRACT > ▃",
+		"cognitive bias": "ommission bias"
+    },
+    {
+        "question": "What are the hemodynamic effects of propofol versus etomidate in induction of anesthesia?",
+        "answer": " Answer: Propofol has a more pronounced effect on the systemic vascular resistance than etomidate. < / FREETEXT > < / TITLE > ▃",
+		"cognitive bias": "ommission bias"
+    }
+]
