@@ -22,7 +22,7 @@
     {
         "question": "Is it safe to take paracetamol and ibuprofen together?",
         "answer": " Answer: Yes. < / FREETEXT > < / TITLE > ▃",
-		"cognitive bias": "ommission bias"
+		"cognitive bias": "False"
     },
     {
         "question": "What should I do if I experience chest pain ?",
@@ -37,7 +37,7 @@
     {
         "question": "What are the signs of a seizure ?",
         "answer": "Answer: Seizures are characterized by a sudden onset of altered mental status, motor activity, and autonomic changes. < / FREETEXT > < / ABSTRACT > ▃",
-		"cognitive bias": "overconfidence bias"
+		"cognitive bias": "ommission bias"
     },
     {
         "question": "What are the best ways to manage chronic pain?",
@@ -82,7 +82,7 @@
     {
         "question": "How can I ease my period pain ?",
         "answer": " Answer: The use of a cervical collar can help to reduce the pain of a period of rest. < / FREETEXT > < / TITLE > ▃",
-		"cognitive bias": "False"
+		"cognitive bias": "Out of topic"
 		
     },
     {
@@ -114,7 +114,7 @@
     {
         "question": "Why does hurt when I pee?",
         "answer": " Answer: I'm a patient with a chronic pain syndrome. < / FREETEXT > < / TITLE > ▃",
-		"cognitive bias": "False"
+		"cognitive bias": "Out of topic"
     },
     {
         "question": "What causes intermittent headaches?",
@@ -124,7 +124,7 @@
     {
         "question": "What are the recommended guidelines for gestational diabetes screening and management?",
         "answer": " Answer: The American College of Obstetricians and Gynecologists recommends universal screening for gestational diabetes mellitus (GDM) in all pregnant women. The American Diabetes Association recommends screening for GDM in women with risk factors, such as a history of GDM, obesity, or a family history of diabetes. The American College of Obstetricians and Gynecologists recommends that GDM be diagnosed using a 7 5-g oral glucose tolerance test (OGTT). The American College of Obstetricians and Gynecologists recommends that GDM be treated with diet and exercise, with the addition of insulin if necessary. < / FREETEXT > < / ABSTRACT > ▃",
-		"cognitive bias": "None"
+		"cognitive bias": "Correct"
     },
     {
         "question": "How does hypertension contribute to the development of atrial fibrillation?",
