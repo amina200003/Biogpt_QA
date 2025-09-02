@@ -1,31 +1,28 @@
-# Medical Question Answering with RAG-Enhanced BioBERT
+# Medical Question Answering with RAG-Enhanced BioGPT
 
 ## Overview
 
-This project implements a **Retrieval-Augmented Generation (RAG)** system to enhance BioBERT's ability to answer medical questions. The system combines traditional information retrieval techniques with state-of-the-art question-answering models to provide accurate, contextually relevant medical information.
+This project implements a **Retrieval-Augmented Generation (RAG)** system to enhance BioGPT's ability to answer medical questions. The system combines traditional information retrieval techniques with state-of-the-art question-answering models to provide accurate, contextually relevant medical information.
 
 ## 🚀 Key Features
 
 - **RAG Architecture**: Combines retrieval and generation for improved medical QA
-- **BioBERT Integration**: Uses the `dmis-lab/biobert-base-cased-v1.1-squad` model fine-tuned on medical data
-- **TF-IDF Retrieval**: Fast semantic search through medical knowledge base
+- **BioGPT Integration**: Uses the "microsoft/biogpt-large" model fine-tuned on medical data
+- **Hybrid Retrieval**: combination of a sparse and dense retriever and fusion with RRF to benefit from lexical precision and semantic relevance
 - **Intelligent Chunking**: Smart text segmentation for optimal context processing
-- **Comprehensive Medical Coverage**: Handles 200+ diverse medical questions
-- **Performance Optimization**: GPU acceleration with fallback to CPU
+- **Comprehensive Medical Coverage**: Handles 100+ diverse medical questions
+
 
 ## 🏗️ Architecture
+![RAG Pipeline](ragGPT.png)
 
-```
-User Question → TF-IDF Retrieval → Context Selection → BioBERT QA → Answer Generation
-                    ↓                    ↓              ↓
-              Medical Database    Top-K Contexts   Best Answer + Score
-```
+
 
 ### Components
 
 1. **Retrieval Engine**: TF-IDF vectorization with n-gram features (1-2 grams)
 2. **Context Processor**: Intelligent text chunking with overlap for optimal BERT input
-3. **QA Model**: BioBERT fine-tuned on SQuAD for extractive question answering
+3. **QA Model**: BioGPT fine-tuned on SQuAD for extractive question answering
 4. **Scoring System**: Confidence scoring for answer quality assessment
 
 ## 📋 Prerequisites
@@ -65,7 +62,7 @@ CHUNK_WORDS = 220          # Maximum words per text chunk
 CHUNK_OVERLAP = 60         # Overlap between chunks
 
 # Model settings
-MODEL_NAME = "dmis-lab/biobert-base-cased-v1.1-squad"
+MODEL_NAME = "dmis-lab/BioGPT-base-cased-v1.1-squad"
 DEVICE = 0 if torch.cuda.is_available() else -1
 ```
 
@@ -135,7 +132,7 @@ Flat table format with all predictions and metadata for easy analysis.
 ### QA Pipeline
 
 - **Question-Context Pairing**: Combines question with retrieved context
-- **BioBERT Processing**: Extracts answers using medical domain knowledge
+- **BioGPT Processing**: Extracts answers using medical domain knowledge
 - **Score Ranking**: Selects best answer based on confidence scores
 
 ## 📈 Performance Considerations
@@ -174,13 +171,13 @@ Flat table format with all predictions and metadata for easy analysis.
 This project demonstrates:
 
 1. **RAG Effectiveness**: How retrieval augmentation improves medical QA accuracy
-2. **Domain Adaptation**: BioBERT optimization for medical applications
+2. **Domain Adaptation**: BioGPT optimization for medical applications
 3. **Context Optimization**: Intelligent text chunking for medical knowledge
 4. **Scalable Architecture**: Framework for large-scale medical QA systems
 
 ## 📚 References
 
-- **BioBERT**: [dmis-lab/biobert-base-cased-v1.1-squad](https://huggingface.co/dmis-lab/biobert-base-cased-v1.1-squad)
+- **BioGPT**: [dmis-lab/BioGPT-base-cased-v1.1-squad](https://huggingface.co/dmis-lab/BioGPT-base-cased-v1.1-squad)
 - **Transformers**: Hugging Face Transformers library
 - **RAG Methodology**: Retrieval-Augmented Generation for knowledge-intensive tasks
 
@@ -204,3 +201,4 @@ This project is for research and educational purposes. Please ensure compliance 
 ---
 
 **Built with ❤️ for advancing medical AI research**
+
