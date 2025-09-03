@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a **Retrieval-Augmented Generation (RAG)** system to enhance BioGPT's ability to answer medical questions. The system combines traditional information retrieval techniques with state-of-the-art question-answering models to provide accurate, contextually relevant medical information.
+This project implements a **Retrieval-Augmented Generation (RAG)** system to enhance BioGPT's ability to answer medical questions. The system combines traditional information retrieval techniques with question-answering models to provide accurate, contextually relevant medical information.
 
 ## 📖 Definitions of cognitive bias
 - Omission bias occurs when relevant information in a given situation is neglected or ignored.
@@ -179,5 +179,6 @@ This project is for research and educational purposes. Please ensure compliance 
 ---
 
 **Built with ❤️ for advancing medical AI research**
+
 
 
