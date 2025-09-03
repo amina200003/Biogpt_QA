@@ -23,7 +23,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system to enh
 
 
 ## 📊Results
-<img src="graph1.jpg" alt="RAG Pipeline" width="300">  <img src="graph2.jpg" alt="RAG Pipeline" width="300">
+<img src="graph1.png" alt="RAG Pipeline" width="300">  <img src="graph2.png" alt="RAG Pipeline" width="300">
 ## 📋 Prerequisites
 
 - Python 3.7+
@@ -179,6 +179,7 @@ This project is for research and educational purposes. Please ensure compliance 
 ---
 
 **Built with ❤️ for advancing medical AI research**
+
 
 
 
