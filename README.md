@@ -121,7 +121,7 @@ Flat table format with all predictions and metadata for easy analysis.
 1. **Sparse Vectorization**: Creates document-term matrices 
 2. **Dense Vectorization**: Creates dense vector that captures the semantic similarity
 3. **Euclidean distance**: Ranks contexts by relevance to the question
-4. **Reciprocal Rank Fusion**:
+4. **Reciprocal Rank Fusion**:Documents lists from the two retrievers are merged using the Reciprocal Rank Fusion (RRF) method.This method assigns a score to each document based on its position in each list 
 5. **Top-3 Selection with Reranking**: Retrieves top-3 most relevant contexts for detailed processing
 
 ## 🏥 Medical Applications
@@ -179,6 +179,7 @@ This project is for research and educational purposes. Please ensure compliance 
 ---
 
 **Built with ❤️ for advancing medical AI research**
+
 
 
 
