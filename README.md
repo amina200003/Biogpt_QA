@@ -7,7 +7,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system to enh
 ## 📖 Definitions of cognitive bias
 - Omission bias occurs when relevant information in a given situation is neglected or ignored.
 - Overconfidence bias, on the other hand, refers to an overestimation of the accuracy of one’s own knowledge or judgments.
-- confirmation bias refers to the tendency to search for, interpret or remember information in a way that confirms one’s initial beliefs or hypotheses.
+- Confirmation bias refers to the tendency to search for, interpret or remember information in a way that confirms one’s initial beliefs or hypotheses.
   
 ## 🚀 Key Features
 - **Merging 4 medical QA datasets**: PubMedQA,MedQuad,MedicationQA,MedQA-USMLE
@@ -19,7 +19,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system to enh
 
 
 ## 🏗️ Architecture
-![RAG Pipeline](ragbioGPT1.png)
+<img src="RAGbioGPT1.png" alt="RAG Pipeline" width="300">
 
 
 ## 📊Results
@@ -179,6 +179,7 @@ This project is for research and educational purposes. Please ensure compliance 
 ---
 
 **Built with ❤️ for advancing medical AI research**
+
 
 
 
