@@ -9,7 +9,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system to enh
 - Overconfidence bias, on the other hand, refers to an overestimation of the accuracy of one’s own knowledge or judgments.
 - Confirmation bias refers to the tendency to search for, interpret or remember information in a way that confirms one’s initial beliefs or hypotheses.
   
-## 🚀 Key Features
+##  Key Features
 - **Merging 4 medical QA datasets**: PubMedQA,MedQuad,MedicationQA,MedQA-USMLE
 - **RAG Architecture**: Combines retrieval and generation for improved medical QA
 - **BioGPT Integration**: Uses the "microsoft/biogpt-large" model fine-tuned on medical data
@@ -80,7 +80,7 @@ OUT_JSON = "path/to/output/predictions.json"
 OUT_CSV = "path/to/output/predictions.csv"
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -182,6 +182,7 @@ This project is for research and educational purposes. Please ensure compliance 
 ---
 
 **Built with ❤️ for advancing medical AI research**
+
 
 
 
