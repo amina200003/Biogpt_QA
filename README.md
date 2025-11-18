@@ -71,13 +71,6 @@ CHUNK_OVERLAP = 50         # Overlap between chunks
 MODEL_NAME = "microsoft/biogpt-large"
 DEVICE = 0 if torch.cuda.is_available() else -1
 ```
-
-### File Paths
-
-```python
-train_file = "path/to/your/medical_QA_dataset.csv"
-OUT_JSON = "path/to/output/predictions.json"
-OUT_CSV = "path/to/output/predictions.csv"
 ```
 
 ##  Usage
@@ -113,9 +106,6 @@ query = [
 }
 ```
 
-### CSV Output
-
-Flat table format with all predictions and metadata for easy analysis.
 
 ## 🔧 Technical Details
 
@@ -182,6 +172,7 @@ This project is for research and educational purposes. Please ensure compliance 
 ---
 
 **Built with ❤️ for advancing medical AI research**
+
 
 
 
